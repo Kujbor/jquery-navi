@@ -122,3 +122,5 @@
     };
 
 })($);
+
+$(docunent).ready($.navi.init);
