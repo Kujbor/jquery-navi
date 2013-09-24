@@ -123,4 +123,4 @@
 
 })($);
 
-$(docunent).ready($.navi.init);
+$(document).ready($.navi.init);
