@@ -33,7 +33,6 @@ define("jquery.navi", ["jquery"], function($) {
                     cached: elem.attr("ajax-cached")
                 });
             });
-
         };
 
         this.setup = function(options) {
@@ -65,11 +64,9 @@ define("jquery.navi", ["jquery"], function($) {
                     self.show(options);
                     return;
                 }
-
             }
 
             self.load(options);
-
         };
 
         this.show = function(options, template) {
@@ -82,7 +79,6 @@ define("jquery.navi", ["jquery"], function($) {
             }
 
             $(target).html(template);
-
         };
 
         this.load = function(options) {
@@ -111,17 +107,12 @@ define("jquery.navi", ["jquery"], function($) {
                     }
 
                     self.cache[target][action] = template;
-
                 }
 
                 self.show(options, template);
-
             });
-
         };
-
     };
-
 });
 
 $(document).ready($.navi.init);
