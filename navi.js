@@ -1,9 +1,9 @@
 /*
- * navi.js - jQuery plugin to implement AJAX-navigation through HTML-attributes
+ * jquery.navi.js - jQuery plugin to implement AJAX-navigation through HTML-attributes
  * Author Oleg Taranov aka Kujbor
  * Copyright (C) 2013: CubeComp Development
  */
-(function($) {
+define("jquery.navi", ["jquery"], function($) {
 
     "use strict";
 
@@ -122,6 +122,6 @@
 
     };
 
-})($);
+});
 
 $(document).ready($.navi.init);
